@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: articles
+#
+#  id                  :integer          not null, primary key
+#  url                 :text             not null
+#  title               :string           not null
+#  author_name         :string           not null
+#  kind                :integer
+#  qiita_id            :string
+#  created_at          :datetime         not null
+#  updated_at          :datetime         not null
+#  twitter_screen_name :string
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+ url: 'http://qiita.com/diskshima/items/ffe4f502c115fed04ce3'
+ title: 'dummy title'
+ author_name: 'author'
+ twitter_screen_name: 'twitter_dummy_name'
+#
+#two: {}
+#  column: value
